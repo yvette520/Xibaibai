@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">洗白白物流</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_new_order">NewOrder</string>
+    <string name="btn_logout">注  销</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="detail_calluser">拨打电话</string>
+    <string name="detail_btndone">收件完毕</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_push">PushActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

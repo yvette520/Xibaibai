@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:paddingLeft="5dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="5dp"
+     >
+
+    <ImageView
+        android:id="@+id/detailpic"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="3dp"
+        android:src="@drawable/ic_launcher" />
+ 
+     <TextView
+         android:id="@+id/texttitle"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+         android:layout_weight="0.38"
+         android:text="Medium Text"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/txtprice"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:textColor="#ffff6600"
+         android:text="￥5.20"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         />
+ 
+     <TextView
+         android:id="@+id/txtnum"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:textColor="#ffff6600"
+         android:text="x2"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         />
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="80dip"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:spinnerMode="dropdown"
+         android:textAppearance="?android:attr/textAppearanceSmall"
+         android:textColor="#ffff6600"
+         android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:padding="5dp" >
+    
+<TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" 
+       android:shrinkColumns="0,2" 
+       android:stretchColumns= "1">
+
+      <TableRow
+          android:id="@+id/tableRow1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content" 
+           android:background="@drawable/list_top" >
+           <TextView
+                android:id="@+id/xxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"                
+                android:text="支付:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />  
+		   <TextView
+                android:id="@+id/paid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="15.2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />  
+           <Button
+                      android:id="@+id/btndone"
+                      android:layout_width="wrap_content"
+                      android:layout_height="25dp"
+                       android:layout_marginRight="10dp"
+                      android:background="@drawable/btnbg"
+                      android:paddingLeft="5dp"
+                      android:paddingRight="5dp"                      
+                      android:text="@string/detail_btndone"
+                      android:textColor="#ffffff"
+                      android:textSize="12sp" />
+      </TableRow> <!-- Row 1 --> 
+      <TableRow
+          android:id="@+id/tableRow2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/list_mid"  >
+           <TextView
+                android:id="@+id/xxxxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="价格:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />  
+           <TextView
+                android:id="@+id/total"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="15.2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />
+      </TableRow>
+
+       <TableRow
+          android:id="@+id/tableRow2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/list_mid"  >
+           <TextView
+                android:id="@+id/xxxxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="地址:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />  
+           <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="15.2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />
+      </TableRow>
+      <TableRow
+          android:id="@+id/tableRow2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/list_bottom"  >
+           <TextView
+                android:id="@+id/xxxxxx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="电话:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />  
+           <TextView
+                android:id="@+id/tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="15.2"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />
+
+           <Button
+               android:id="@+id/calluser"
+               android:layout_width="wrap_content"
+               android:layout_height="25dp"
+               android:layout_marginRight="10dp"
+               android:background="@drawable/btnbg"
+               android:paddingLeft="5dp"
+               android:paddingRight="5dp"
+               android:text="@string/detail_calluser"
+               android:textColor="#ffffff"
+               android:textSize="12sp" />
+
+      </TableRow>
+  </TableLayout>
+
+     
+     
+ 
+
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="10dp" 
+        android:focusable="true"  
+        android:focusableInTouchMode="true">
+      
+        <TextView
+                android:id="@+id/tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"  
+                android:text="ID: "
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffff6600"
+                 />
+      <EditText
+          android:id="@+id/packageid"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:ems="10"
+          android:hint="包裹id号"
+          android:inputType="number|numberDecimal|phone" >
+
+          <!--requestFocus /-->
+      </EditText>
+
+                 <Button
+                     android:id="@+id/addclothes"
+                     android:layout_width="wrap_content"
+                     android:layout_height="35dp"
+                     android:background="@drawable/btnbg2"
+                     android:paddingLeft="5dp"
+                     android:paddingRight="5dp"
+                     android:text="添加衣服"
+                     android:textColor="#ffffff"
+                     android:textSize="16sp" />
+
+ </LinearLayout>
+     
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="5dp"
+      android:layout_weight="1"
+      android:background="@drawable/border"
+      android:padding="5dp"
+      android:paddingRight="10dp" >
+
+        <!-- Here is the list. Since we are using a ListActivity, we
+             have to call it "@android:id/list" so ListActivity will
+             find it :-(  -->
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="false" />
+        
+        <!-- Here is the view to show if the list is emtpy -->
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:text="衣服记录为空" />
+            
+    </FrameLayout>
+
+  
+
+</LinearLayout>

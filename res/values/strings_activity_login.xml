@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="title_activity_login">洗白白</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">登陆密码</string>
+    <string name="action_sign_in_register"><b>Sign in</b>或注册</string>
+    <string name="action_sign_in_short">登陆</string>
+    <string name="action_forgot_password">找回密码</string>
+    <string name="login_progress_signing_in">登陆中 ....</string>
+    <string name="error_invalid_email">账号不对</string>
+    <string name="error_invalid_password">密码太短</string>
+    <string name="error_incorrect_password">无效的密码</string>
+    <string name="error_field_required">需要填写</string>
+    <string name="string_default_user">user1</string>
+    <string name="string_default_password">user</string> 
+    <string name="mall_hint">校园ID</string> 
+    <string name="error_invalid_mall">校园ID不对</string>
+    
+</resources>
